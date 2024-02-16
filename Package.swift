@@ -9,24 +9,24 @@ let package = Package(
     products: [
         .library(
           name: "ZoomSdkTest",
-          targets: ["MobileRTC"]
+          targets: ["ZoomSdkTest"]
         )
     ],
     dependencies: [
     ],
     targets: [
-//        .target(
-//            name: "ZoomSdkTest",
-//            dependencies: [
-//                "MobileRTC"
-//            ]
-////            resources: [
-////                .process("Resources/MobileRTCResources.bundle")
-////            ]
-//        ),
+        .target(
+            name: "ZoomSdkTest",
+            dependencies: [
+                "MobileRTC"
+            ],
+            resources: [
+                .process("Resources/MobileRTCResources.bundle")
+            ]
+        ),
         .binaryTarget(
             name: "MobileRTC",
-            url: "https://github.com/tiphainegiron/zoom-sdk-test/releases/download/4.0.0/MobileRTC.xcframework.zip",
+            url: "https://github.com/tiphainegiron/zoom-sdk-test/releases/download/5.0.0/MobileRTC.xcframework.zip",
             checksum: "ce1e091ef875db0fd516eae2a2a73dfef132911c586eb09c6065f738b3e35ec8"
         )
     ]

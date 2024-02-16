@@ -1,5 +1,5 @@
-MobileRTCResources.bundle/Assets.ca filter=lfs diff=lfs merge=lfs -text
-MobileRTCResources.bundle/pl.lproj/Localizable.strings filter=lfs diff=lfs merge=lfs -text
-MobileRTCResources.bundle/ru.lproj/Localizable.strings filter=lfs diff=lfs merge=lfs -text
-MobileRTCResources.bundle/vi.lproj/Localizable.strings filter=lfs diff=lfs merge=lfs -text
-MobileRTCResources.bundle/zdcRes.bundle/Assets.car filter=lfs diff=lfs merge=lfs -text
+Sources/ZoomSdkTest/Resources/MobileRTCResources.bundle/Assets.ca filter=lfs diff=lfs merge=lfs -text
+Sources/ZoomSdkTest/Resources/MobileRTCResources.bundle/pl.lproj/Localizable.strings filter=lfs diff=lfs merge=lfs -text
+Sources/ZoomSdkTest/Resources/MobileRTCResources.bundle/ru.lproj/Localizable.strings filter=lfs diff=lfs merge=lfs -text
+Sources/ZoomSdkTest/Resources/MobileRTCResources.bundle/vi.lproj/Localizable.strings filter=lfs diff=lfs merge=lfs -text
+Sources/ZoomSdkTest/Resources/MobileRTCResources.bundle/zdcRes.bundle/Assets.car filter=lfs diff=lfs merge=lfs -text
